@@ -9,7 +9,6 @@
 *.user
 *.userosscache
 *.sln.docstates
-.env
 .chainlit
 .venv
 *.DS_Store
@@ -383,11 +382,6 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
 
 # Local History for Visual Studio Code
@@ -415,3 +409,7 @@ FodyWeavers.xsd
 # Ignore Cognee system and data storage
 13-agent-memory/.cognee_system
 13-agent-memory/.data_storage
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
